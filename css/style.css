@@ -1,0 +1,333 @@
+/* common css start  */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* common css end  */
+/* header css start  */
+.wrraper {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    padding: 11px 0px;
+    width: 160px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+/* header css end  */
+/* banner css start */
+.banner {
+    background-image: url(../images/Image.png);
+    min-height: 800px;
+    position: relative;
+}
+
+.content {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content h1 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: #ffffff;
+    margin-top: 178px;
+}
+
+.content hr {
+    width: 600px;
+    border-color: #54A5FB;
+    margin-top: 15px;
+}
+
+.content p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 28px;
+}
+
+.content button {
+    width: 177px;
+    height: 55px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #54A5FB;
+    color: #ffffff;
+    margin-top: 28px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content button:hover {
+    background-color: #54A5FB;
+}
+
+.down {
+    bottom: 61px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    left: 0;
+    right: 0;
+}
+
+/* banner css end */
+/* simple css start */
+.simple {
+    background-color: #F6F9F9;
+}
+
+.s_content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.s_content h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #2d3950;
+}
+
+.s_content p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #999999;
+    line-height: 30px;
+}
+
+/* simple css end */
+/* service css start */
+.se_content {
+    width: 25%;
+    text-align: center;
+    margin: 60px 44.9px;
+    float: left;
+}
+
+.se_content h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2d3950;
+}
+
+.se_content p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+}
+
+.se_img {
+    background-color: #5EBBFE;
+    width: 98px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.se_img img {
+    position: absolute;
+    top: 25px;
+    left: 33px;
+}
+
+/* service css end */
+/* showcase css start */
+.showcase {
+    background-color: #F6F9F9;
+}
+
+.sh_content {
+    text-align: center;
+}
+
+.sh_content h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+    color: #2d3950;
+}
+
+.sh_content p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #909090;
+}
+
+.sh_img {
+    width: 25%;
+    position: relative;
+
+}
+
+.sho_content img {
+    width: 100%;
+}
+
+.sho_content {
+    position: relative;
+    width: 25%;
+    text-align: center;
+    margin: 60px 44.9px;
+    float: left;
+}
+
+/* showcase css end */
+/* form css start */
+.s_form {
+    background-image: url(../images/Layer\ 36.png);
+    opacity: 1;
+    min-height: 700px;
+}
+
+.bg {
+    text-align: center;
+}
+
+.u_content h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 41px;
+    color: #ffffff;
+}
+
+.u_content p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+}
+
+.form input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    width: 555px;
+    height: 35px;
+    border: none;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+}
+
+.form input:focus {
+    outline: 0;
+}
+
+.mess textarea {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    width: 555px;
+    height: 160px;
+    border: none;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+
+}
+
+.check input {
+    width: 20px;
+    height: 20px;
+}
+
+.check p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.check {
+    float: left;
+    margin-left: 267px;
+}
+
+.form button {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    width: 140px;
+    height: 45px;
+    border: 2px solid #5EBBFE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #5EBBFE;
+    color: #ffffff;
+}
+
+.bg {
+    padding: 101px 0;
+}
+
+/* form css end */
+/* footer css start */
+.text {
+    display: inline-block;
+}
+
+.text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    display: inline-block;
+    margin: 27px 0;
+}
+
+.social {
+    float: right;
+}
+
+.social ul {
+    float: left;
+}
+
+.social ul li {
+    margin-right: 10px;
+    float: left;
+    list-style: none;
+    background-color: #54A5FB;
+    height: 40px;
+    width: 40px;
+}
+
+.social ul li a img {
+    padding: 14px;
+}
+
+/* footer css end */
